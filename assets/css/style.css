@@ -1,19 +1,89 @@
 *{
     box-sizing: border-box;
 }
+:root{
+    --color-xanh :#10375c;
+    --color-btn :#2e80ce;
+}
 html{
     font-size: 62.5%;
 }
 body{
     font-size: 1.6rem;
     font-family: "Sora", sans-serif;
+    height: 100000px;
+}
+
+/* ================================common=================================== */
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    max-width: calc(100% - 48px);
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    display: inline-block;
+    min-width: 205px;
+    line-height: 60px;
+    background: var(--color-btn);
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 999px;
+}
+btn:hover{
+    opacity: 0.9;
 }
 
 
-
-
-
-
+/* ================================HEADER=================================== */
+.header{
+    padding-top: 30px;
+    min-height: 100vh;
+    background: var(--color-xanh);
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__list{
+    display: flex;
+}
+.header__action--login,
+.navbar__link{
+    padding: 8px 21px;
+    color: #c9d2da;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+.navbar__link:hover,
+.navbar__link--active{
+    text-shadow: 1px 0 0 currentColor;
+    color: #fff;
+}
+.navbar__link--active::before{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    top: -3px;
+    position: relative;
+    right: 8px;
+}
+.header__action--signup{
+    min-width: 144px;
+    line-height: 44px;
+    font-size: 1.6rem;
+    margin-left: 7px;
+}
 
 
 
