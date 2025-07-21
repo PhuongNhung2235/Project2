@@ -341,54 +341,54 @@ btn:hover{
 }
 
 
-/* ===========================cta================================== */
-.cta{
+/* ===========================team================================== */
+.team{
     padding: 85px 0px;
 }
-.cta__header{
+.team__header{
     text-align: center;
     margin: 0 auto;
 }
-.cta__btn{
+.team__btn{
     margin-top: 38px;
     margin-bottom: 70px;
 }
-.cta__list{
+.team__list{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 30px;
 }
-.cta-item__img-bg{
+.team-item__img-bg{
     padding-top: 28px;
     border-radius: 6px;
     background: #EAF6FF;
     overflow: hidden;
 }
-.cta-item:hover .cta-item__thumb{
+.team-item:hover .team-item__thumb{
     transform: scale(1.1);
 }
-.cta-item__thumb{
+.team-item__thumb{
     height: 290px;
     max-width: 100%;
     display: block;
     object-fit: cover;
     transition: 0.5s;
 }
-.cta-item__name{
+.team-item__name{
     color: var(--color-xanh);
     text-align: center;
     font-size: 1.6rem;
     line-height: 1.75; 
     margin-top: 12px;
 }
-.cta-item__desc{
+.team-item__desc{
     color: #575F66;
     text-align: center;
     font-size: 1.4rem;
     font-weight: 300;
     line-height: 1.86; 
 }
-.cta__control{
+.team__control{
     margin-top: 38px;
     justify-content: center;
 }
