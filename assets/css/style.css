@@ -394,8 +394,46 @@ btn:hover{
 }
 
 
-
-
+/* ==========================cta==================================== */
+.cta__row{
+    height: 427px;
+    margin: 180px 0px 85px;
+    background: var(--color-btn);
+    display: flex;
+    border-radius: 4px;
+    padding: 0 70px;
+    justify-content: space-between;    
+    align-items: center;
+    position: relative;
+}
+.cta__img{
+    position: absolute;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    bottom: 0;
+}
+.cta-content{
+    max-width: 586px;
+}
+.cta-content__heading{
+    color: #fff;
+    max-width: 489px;
+}
+.cta-content__desc{
+    color: #fff;
+    margin-top: 18px;
+    max-width: 586px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+.cta-dowload{
+    margin-top: 38px;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
 
 
 
