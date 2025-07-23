@@ -11,10 +11,14 @@ html{
 body{
     font-size: 1.6rem;
     font-family: "Sora", sans-serif;
-    height: 100000px;
 }
 
 /* ================================common=================================== */
+input, textarea, select, button{
+    font-family: inherit;
+    /* kế thừa font */
+    font-size: inherit;
+}
 .container{
     width: 1170px;
     margin: 0 auto;
@@ -520,7 +524,7 @@ btn:hover{
 
 /* =======================appointment====================== */
 .appointment{
-    margin: 85px 0;
+    margin-top: 85px;
 }
 .appointment-body{
     padding: 100px 178px;
@@ -545,21 +549,108 @@ btn:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* =======================footer====================== */
+.footer{
+    margin-top: 170px;
+    padding-top: 100px;
+    background: var(--color-xanh);
+    font-family: "Open Sans", sans-serif;
+}
+.footer__top{
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 78px;
+}
+.footer__desc{
+    margin-top: 21px;
+    color: #a9b3bb;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+.footer__heading{
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.75;
+    font-size: 1.6rem;
+}
+.footer__list{
+    margin: 20px 0 28px;
+}
+.footer__item{
+    margin-bottom: 10px;
+}
+.footer__link{
+    font-size: 1.4rem;
+    color: #a9b3bb;
+    line-height: 1.86;
+    white-space: nowrap;
+}
+.footer__link:hover{
+    text-decoration: underline;
+}
+.footer__mxh{
+    display: flex;
+    column-gap: 10px;
+    margin: 20px 0 28px;
+}
+.footer__mxh-btn{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2E80CE;
+}
+.footer__mxh-btn:hover{
+    background: #2E80CE;
+    color: #fff;
+}
+.footer__form{
+    display: flex;
+    column-gap: 12px;
+    margin-top: 18px;
+}
+.footer__form-input{
+    border-radius: 4px;
+    border: 1px solid #406181;
+    width: 212px;
+    height: 46px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+}
+.footer__form-input::placeholder{
+    color: #9CA8B1;
+    font-size: 1.4rem;
+    line-height: 1.86;
+}
+.footer-form__btn{
+    border-radius: 4px;
+    background: #2E80CE;
+    width: 108px;
+    height: 46px;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.86;
+    border: none;
+}
+.footer-form__btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.footer__copyright{
+    border-top: 1px solid #406181;
+}
+.footer__copyright-desc{
+    color: #AAB3BA;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1,86;
+    padding: 28px 0 42px;
+}
 
 
 
