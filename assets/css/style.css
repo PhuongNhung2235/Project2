@@ -193,7 +193,7 @@ btn:hover{
 .service__desc{
     text-align: center;
 }
-.section-desc{
+.service__desc{
     width: 468px;
     margin: 18px auto 0px;
 }
@@ -516,6 +516,54 @@ btn:hover{
 .blog-item__more:hover{
     color: var(--color-btn);
 }
+
+
+/* =======================appointment====================== */
+.appointment{
+    margin: 85px 0;
+}
+.appointment-body{
+    padding: 100px 178px;
+    height: 452px;
+    text-align: center;
+    background: #F6FBFF;
+}
+/* thêm gạch chân  */
+.appointment__heading::after{
+    content: "";
+    display: block;
+    width: 136px;
+    height: 2px;
+    background: #2e80ce;
+    margin: 18px auto 0;
+}
+.appointment__desc{
+    font-size: 1.6rem;
+    line-height: 1.75;
+    margin: 18px auto 38px;
+    width: 617px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
